@@ -19,4 +19,10 @@ class ProductsController < ApplicationController
 
       redirect_to :back
   end
+
+  def destroy
+    @product = Product.find(params[:id])
+    @product.destroy
+    redirect_to products_path(@product), alert: "商品已下架"
+  end
 end
