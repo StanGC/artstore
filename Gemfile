@@ -14,6 +14,7 @@ gem "pay2go"
 gem "figaro"
 gem "fog"
 gem 'delayed_job_active_record'
+gem 'omniauth-facebook'
 
   group :production do
     gem "pg"
