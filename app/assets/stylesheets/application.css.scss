@@ -36,3 +36,16 @@ body {
     background-color:  #CCDDFF;
 }
 
+.product {
+   
+   }
+   img {
+     width: 75%;
+     -webkit-transition: all .3s ease-out;
+     -moz-transition: all .3s ease-out;
+     -o-transition: all .3s ease-out;
+     transition: all .3s ease-out;
+     &:hover {
+       transform: scale(1.075);
+     }
+   
