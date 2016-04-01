@@ -12,11 +12,17 @@
  *
  *= require_tree .
  *= require_self
+ 
+ *= require animate.min
+ *= require bootstrap
+ *= require bootstrap.css
+ *= require creative
  */
 
-  @import "bootstrap-sprockets";
-  @import "bootstrap";
-  @import "font-awesome"; 
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import "font-awesome"; 
 
   .product-price {
     padding-top: 20px;
@@ -27,14 +33,7 @@
     color: #ff007c;
 }
 
-body {
-  background: #8FBC8F;
-}
 
-.navbar {
-    min-height: 38px;
-    background-color:  #CCDDFF;
-}
 
 .product {
    
@@ -48,4 +47,4 @@ body {
      &:hover {
        transform: scale(1.075);
      }
-   
+   }

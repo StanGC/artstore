@@ -33,7 +33,7 @@ Rails.application.routes.draw do
     end
   end
 
-  root "products#index"
+  root "landing#index"
 
   get "/pages/:action" , :controller => "pages"
   
@@ -49,6 +49,8 @@ Rails.application.routes.draw do
   namespace :account do
     resources :orders
   end
+
+  resources :landing
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

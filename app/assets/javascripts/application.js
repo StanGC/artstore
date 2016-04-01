@@ -16,3 +16,13 @@
 //= require bootstrap/dropdown
 //= require bootstrap/alert
 //= require_tree .
+
+//= require bootstrap
+//= require bootstrap.min
+//= require cbpAnimatedHeader
+//= require classie
+//= require creative
+//= require jquery.easing.min
+//= require jquery.fittext
+//= require jquery
+//= require wow.min
