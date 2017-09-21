@@ -20,6 +20,9 @@
            <%= t("products.SoldOut") %>
          <% end %>
     </div>
+    <div>
+      <i class="fa fa-eye" aria-hidden="true"></i> <%= @product.impressionist_count(:filter=>:session_hash) %>
+    </div>
   </div>
 </div>
 <br>
