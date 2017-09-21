@@ -15,6 +15,7 @@ gem "figaro"
 gem "fog"
 gem 'delayed_job_active_record'
 gem 'omniauth-facebook'
+gem 'impressionist'
 
   group :production do
     gem "pg"
