@@ -26,3 +26,4 @@
 //= require jquery.fittext
 //= require jquery
 //= require wow.min
+

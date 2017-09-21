@@ -7,3 +7,13 @@ zh-TW:
       shipped: 已到貨
       order_cancelled: 取消訂單
       good_returned: 退貨
+  products:
+    Quantity: 數量
+    SaleTime: 上架時間
+    AddToCart: 加入購物車
+    SoldOut: 已銷售一空，無法購買
+  navbar:
+    About: 關於本站
+    Products: 商品
+    Cart: 購物車
+
