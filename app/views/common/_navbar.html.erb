@@ -18,7 +18,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li>
           <%= link_to carts_path do  %>
-            購物車 <i class="fa fa-shopping-cart"> </i> ( <%= render_cart_items_count(current_cart) %> ) 
+            購物車 <i class="fa fa-shopping-cart"> </i> ( <span id="product-cart-<%= @product_id %>"> <%= current_cart.items.size %> </span> )
           <% end %>
         </li>
 
@@ -32,7 +32,7 @@
               <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
-              
+
              <% if current_user.admin? %>
                <li>
                  <%= link_to("Admin 選單", admin_products_path ) %>
